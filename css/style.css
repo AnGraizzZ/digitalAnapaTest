@@ -9,7 +9,7 @@ a
 
 .header-fon
 {
-    background-image: url('/image/Rectangle32.png');
+    background-image: url('../image/Rectangle32.png');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1 ;

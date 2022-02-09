@@ -17,7 +17,7 @@ while (i < 4) {
      ];
      return '<div class="col-md-3  col-12">\
                 <div class="infrastructure-block ">\
-                    <div class="infrastructure-img" style="background-image: url(/image/infra'+arr[data][0]+'.png)">\
+                    <div class="infrastructure-img" style="background-image: url(image/infra'+arr[data][0]+'.png)">\
                     <div class="black-hidden"><button class="btn-infrastructure button-active">Подробнее</button></div>\
                 </div>\
                 <p class="content-title">'+arr[data][1]+'</p>\
