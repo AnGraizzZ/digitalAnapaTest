@@ -1,0 +1,282 @@
+body
+{
+    background-color: #F4F6FB;
+}
+a
+{
+    text-decoration: none;
+}
+
+.header-fon
+{
+    background-image: url('/image/Rectangle32.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1 ;
+    background-position: center;
+    
+}
+
+
+
+.header-logo
+{
+
+}
+.btn-menu>img
+{
+    width: 300%;
+}
+.header-logo>img
+{
+    height: 83px;
+    float: left;
+}
+.header-logo>p
+{
+    float: left;
+    color: white;
+    font-size: 22px;
+    width: 140px;
+    
+}
+.header-menu>a
+{
+    color: black;
+    font-style: normal;
+    font-size: 14,5px;
+}
+
+.header-tel>a
+{
+    float: left;
+    color: black;
+    font-weight:bold;
+    font-size: 18px; 
+    padding: 4px;
+}
+.tel-v
+{
+    float: left;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+}
+.tel-v>img
+{
+    margin: 25%;
+    width: 50%; 
+}
+
+.header-title
+{
+    margin-top: 200px;
+}
+
+.header-title>div>h3
+{
+    color: white;
+    
+    font-weight: 100;
+    font-size: 40px;
+}
+.header-title>div>h1
+{
+    color: white;
+    
+    font-weight: 700;
+    font-size: 67px;
+}
+
+.header-button
+{
+    margin-top: 50px;
+}
+.header-button>div>button, .btn-video, .btn-infrastructure{
+    position:relative;
+    
+    border: none;
+    
+    border-radius: 90px;
+    color: white;
+    font-size: 20px;
+    
+  }
+
+  .header-button>div>button, .btn-video 
+  {
+    width: 280px;
+    height: 60px;
+  }
+  .header-button>div>button::before, .btn-video::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:90px; 
+    padding:4px; 
+    
+    background:linear-gradient(113.2deg, #FD636B 10.25%, #FFD200 98.71%); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+  }
+
+  .button-active
+  {
+    background: linear-gradient(113.2deg, #FD636B 10.25%, #FFD200 98.71%);
+    box-shadow: 0px 15px 25px rgba(249, 159, 64, 0.4); 
+  }
+
+  .button-empty
+  {
+    background: none;
+  }
+  
+  .header-info
+  {
+      margin-top: 70px;
+      
+  }
+
+  .header-info>div>p
+  {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .header-info>div>h5
+  {
+    background: linear-gradient(to top, #FD636B, #FFD200);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+    font-weight: 700;
+  }
+
+  .content-about
+  {
+      margin-top: 50px;
+  }
+  .content-about>div
+  {
+      margin-bottom: 50px;
+  }
+  .about-img
+  {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+  }
+  .about-img>img
+  {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    
+  }
+  .content-about>div>p
+  {
+      font-size: 16px;
+  }
+  .img-btn
+  {
+    
+      background-color: white;
+      opacity: 0.8;
+      width: 60px;
+      height: 60px;
+      text-align: center;  
+      position: absolute;
+      top: 0;
+
+      bottom: 0;
+     
+      margin: auto;
+      border-radius: 90px;
+      color: #F99F40;
+      font-weight: 500;
+      font-size: 30px;
+      border:none;
+      
+  }
+
+  #img-btn-left
+  {
+    left: 20px;
+    
+    
+  }
+
+  #img-btn-right
+  {
+    right: 20px;
+  }
+
+  .content-title
+  {
+      background: linear-gradient(135.61deg, #6A67CE 10.59%, #1AAFD0 73.14%);
+      -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+    font-weight: 700;
+  }
+  .infrastructure-title
+  {
+      text-align: center;
+  }
+  .infrastructure-img
+  {
+      
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 333px;
+  }
+  .black-hidden
+  {
+     position: relative;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+  }
+  .black-hidden:hover
+  {
+    opacity: 1; 
+  }
+ .btn-infrastructure
+ {
+     position: absolute;
+     margin: auto;
+     bottom: 30px;
+     width: 75%;
+     height: 40px;
+     right: 0;
+     left: 0;
+     
+ }
+ .infrastructure-block
+ {
+     background-color: white;
+     text-align: center;
+     border-radius: 10px;
+     overflow: hidden;
+     margin-top: 50px;
+ }
+
+ .infrastructure-block>p
+ {
+    padding: 5px;
+ }
+
+ .navbar-toggler-my:focus
+ {
+    
+        box-shadow: none;
+ }
